@@ -3,9 +3,11 @@ Le projet consiste en la création d'une caméra de surveillance déclanchée pa
 # Matériel nécessaire
 |        Nom            |Référence farnell|  Prix |
 |-----------------------|-----------------|-------|
-|      Raspberry pi     |     2525225     |31,41 €|
+|Raspberry pi + Carte SD|     2525227     |38,14 €|
 |         Caméra        |     2510729     |22,04 €|
 | Détecteur infra-rouge |     2095731     | 9,50 €|
+
+Total: 69,68 €
 
 # Cahier des charges
 * Détection d'un mouvement dans la pièce (portée de 12m)
