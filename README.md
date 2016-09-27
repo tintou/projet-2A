@@ -14,3 +14,9 @@ Le projet consiste en la création d'une caméra de surveillance déclanchée pa
 * Envoi sur Dailymotion en mode privé
 * Possibilité de voir le flux vidéo en direct à distance
 * Alimentation par batterie
+
+# Extensions possibles
+* Affichage du niveau de la batterie
+* Allumage d'une lumière dans la salle
+* Ajout de caméras et capteurs IR connectés en Wi-Fi ou Bluetooth
+* Envoi d'un SMS/E-Mail
