@@ -7,3 +7,4 @@ Page dédiée au développement logiciel.
 #Documentation
 * [RPI.GPIO](https://sourceforge.net/p/raspberry-gpio-python/wiki/Inputs/)
 * [OpenClassrooms](https://openclassrooms.com/courses/apprenez-a-programmer-en-python)
+* [adafruit](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/)
