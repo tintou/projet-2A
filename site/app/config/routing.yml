@@ -1,0 +1,6 @@
+oc_platform:
+    resource: "@OCPlatformBundle/Resources/config/routing.yml"
+
+# app/config/routing.yml
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

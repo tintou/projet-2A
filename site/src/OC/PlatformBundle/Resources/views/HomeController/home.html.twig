@@ -1,0 +1,9 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}OCPlatformBundle:HomeController:home{% endblock %}
+
+{% block body %}
+<h1>Bienvenue !</h1>
+<a href="{{path('oc_platform_record')}}">Mes enregistrements</a>
+<a href="{{path('oc_platform_profile')}}">Mon profil</a>
+{% endblock %}

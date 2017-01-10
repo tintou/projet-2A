@@ -1,0 +1,16 @@
+# src/OC/PlatformBundle/Resources/config/routing.yml
+
+oc_platform_home:
+    path:      /
+    defaults:
+        _controller: OCPlatformBundle:Home:home
+
+oc_platform_record:
+    path:      /record
+    defaults:
+        _controller: OCPlatformBundle:Record:record
+
+oc_platform_profile:
+    path:      /profile
+    defaults:
+        _controller: OCPlatformBundle:Profile:profile

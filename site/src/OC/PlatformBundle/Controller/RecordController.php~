@@ -1,0 +1,21 @@
+<?php
+
+namespace OC\PlatformBundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\HttpFoundation\Request;
+
+class RecordController extends Controller
+{
+    /**
+     * @Route("/record")
+     */
+    public function recordAction()
+    {
+    
+    
+    }
+
+}
+
