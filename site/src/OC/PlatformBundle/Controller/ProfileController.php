@@ -22,9 +22,9 @@ class ProfileController extends Controller
         $form = $this->createFormBuilder($user)
             ->add('username',TextType::class)
             ->add('email',EmailType::class)
-            ->add('password',PasswordType::class)
+            //->add('password',PasswordType::class, array('empty_data' => $user->getPassword()))
             ->add('dailymotion_id',TextType::class)
-            ->add('dailymotion_password',PasswordType::class)
+            ->add('dailymotion_password',PasswordType::class, array('always_empty'=>false))
             ->add('save',SubmitType::class, array('label'=>'Save'))
             ->getForm();
         
@@ -38,7 +38,6 @@ class ProfileController extends Controller
         }
         
         return $this->render('OCPlatformBundle:ProfileController:profile.html.twig', array('form'=>$form->createView(),'user'=>$user
-            // ...
         ));
     }
 
