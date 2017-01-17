@@ -1,0 +1,11 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}OCPlatformBundle:RecordController:record{% endblock %}
+
+{% block body %}
+<h1>Vos videos</h1>
+{% for video in videos %}
+<iframe frameborder="0" width="400" height="270" src="//www.dailymotion.com/embed/video/{{ video.id }}"
+allowfullscreen></iframe>
+{% endfor %}
+{% endblock %}
